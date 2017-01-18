@@ -1,7 +1,7 @@
 # docker-images
 
 ```
-Usage: index.ts npm start -- -i node-image -t 7.4.0
+Usage: npm start -- -i node-image -t 7.4.0
 
 Docker images
 
@@ -9,7 +9,7 @@ Options:
 
   -h, --help             output usage information
   -V, --version          output the version number
-  -u, --user [username]  Username
+  -u, --user [username]  Username (default: brunolm)
   -i, --image <name>     Image name
   -t, --tag <version>    Tag version
 ```
@@ -19,11 +19,11 @@ Options:
 ### Building node image
 
 ```
-npm run build -- -i node-image -t 7.4.0
+npm run start -- -i node-image -t 7.4.0
 ```
 
 ### Publishing node image
 
 ```
-npm run publish -- -i node-image -t 7.4.0 --publish
+npm run start -- -i node-image -t 7.4.0 --publish
 ```
