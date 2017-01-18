@@ -1,0 +1,28 @@
+{
+  "name": "docker-images",
+  "version": "1.0.0",
+  "description": "Docker images",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "help": "ts-node src/index.ts --help",
+    "test": "tslint src/**/*.ts"
+  },
+  "keywords": [],
+  "author": {
+    "email": "brunolm7@gmail.com",
+    "name": "Bruno Leonardo Michels",
+    "url": "http://codingiwse.com/"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/commander": "^2.3.31",
+    "@types/node": "^7.0.0",
+    "commander": "^2.9.0",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  },
+  "devDependencies": {
+    "tslint": "^4.3.1"
+  }
+}
